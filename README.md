@@ -146,7 +146,9 @@ Steps to clone a private repo:
 ```bash
 ssh-keygen -t ed25519 -C "your_email@example.com"
 ```
-- Copy the SSH public key to your clipboard. [Add a new SSH key](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent#generating-a-new-ssh-key).
+- Copy the SSH public key to your clipboard. [Add a new SSH key](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent#generating-a-new-ssh-key)
+
+[![Open in Codeanywhere](https://codeanywhere.com/img/open-in-codeanywhere-btn.svg)](https://app.codeanywhere.com/#https://github.com/pablomarin/GPT-Azure-Search-Engine).
 ```bash
 cat ~/.ssh/id_ed25519.pub
 # Then select and copy the contents of the id_ed25519.pub file
